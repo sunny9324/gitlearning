@@ -7,7 +7,8 @@ driver.get("https://www.google.com.au");//changed url to au via feature 2
 
 // 3. Verification: Check if we arrived at the right place
 String title = driver.getTitle();
-System.out.println("Page title is: " + title);
+//System.out.println("Page title is: " + title);
+System.out.println("Verify Page title is: " + title); // updated validation via feature 3
 
 // 4. Cleanup: Park the car and turn off the engine
 driver.quit();
