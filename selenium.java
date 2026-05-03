@@ -1,5 +1,8 @@
 // 1. Setup: Get the keys to the car
-WebDriver driver = new ChromeDriver(); //main
+//WebDriver driver = new ChromeDriver(); //main
+
+WebDriver driver = new IEDriver(); //changed to edge browser via feature 1
+
 
 // 2. Navigation: Drive to the store
 driver.get("https://www.google.com");
